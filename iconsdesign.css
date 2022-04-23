@@ -1,0 +1,185 @@
+body{
+background-image:linear-gradient(to top right,pink,grey);
+height:990px;
+}
+i {
+font-size : 40px;
+position:relative;
+color:rgba(200,200,200,0.7);
+}
+#anime{
+animation-name : move;
+animation-duration :32s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+#anime1{
+animation-name:move;
+animation-duration:147s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+#anime2{
+animation-name:move;
+animation-duration:38s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+#anime3{
+animation-name:move;
+animation-duration:33s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+#anime4{
+animation-name:move;
+animation-duration:43s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+#anime5{
+animation-name:move;
+animation-duration:30s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+#anime6{
+animation-name:move;
+animation-duration:455s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+@keyframes move{
+0%{ left:0px; top:0px;}
+25%{left:300px; top:800px;}
+50%{ left:500px;top:0px;}
+70%{left:700px; top:800px;}
+85%{left:900px; top:0;}
+100%{left:1000px;top:800px;}
+}
+.signup{
+width:500px;
+height:700px;
+background-image:linear-gradient(to top left,rgba(200,200,200,0.9),rgba(300,300,300,0.9));
+border-radius:10px;
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+box-shadow:10px 10px grey;
+}
+.btn1{
+width:100px;
+height:25px;
+background:grey;
+display:inline-block;
+margin-left:85px;
+margin-top:50px;
+font-size:15px;
+border-radius:15px;
+text-align:center;
+}
+.btn1:hover{
+background:rgba(300,300,300,0.2);
+border:1px solid grey;
+height:30px;
+width:110px;
+}
+@keyframes move{
+0%{ left:0px; top:0px;}
+25%{left:600px; top:800px;}
+50%{ left:800px;top:0px;}
+70%{left:900px; top:800px;}
+85%{left:1000px; top:0;}
+100%{left:0px;top:0px;}
+}
+form{
+font-size:20px;
+text-align:center;
+}
+.textdesign{
+width:250px;
+height:20px;
+border-radius:10px;
+border:1px solid grey;
+}
+.textdesign:hover{
+width:280px;
+height:25px;
+background:rgba(200,200,200,0.7);
+}
+u:hover{
+color:blue;
+}
+p{
+text-align:center;
+}
+.next{
+width:100px;
+height:30px;
+background :grey;
+border:1px solid black;
+margin-top:130px;
+}
+button:hover{
+background :rgba(200,200,200,0.7);
+height:35px;
+width:120px;
+}
+#anime7{
+animation-name:move1;
+animation-duration:30s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+@keyframes move1{
+0%{left:0px;top:0px;}
+20%{left:300px;top:150px;}
+30%{left:200px;top:0px;}
+40%{left:150px;top:200px;}
+50%{left:250px;top:0px;}
+60%{left:300px;top:250px;}
+70%{left:350px;top:0px;}
+80%{left:400px;top:300px;}
+90%{left:450px;top:0px;}
+95%{left:500px;top:350px;}
+100%{left:0px;top:0px;}
+}
+#anime8{
+animation-name:move2;
+animation-duration:20s;
+animation-iteration-count:infinite;
+animation-direction:alternate-reverse;
+}
+@keyframes move2{
+0%{left:0px;top:0px;}
+25%{left:800px;top:0px;}
+50%{left:800px;top:800px;}
+75%{left:0px;top:800px;}
+100%{left:0px;top:0px;}
+}
+#anime9{
+animation-name:move3;
+animation-duration:20s;
+animation-direction:alternate-reverse;
+animation-iteration-count:infinite;
+}
+@keyframes move3{
+0%{right:0px; top:0px;}
+25%{right:0px;top:500px;}
+50%{right:300px;top:0px;}
+75%{right:0px;top:500px;}
+100%{right:0px;top:0px;}
+}
+#anime10{
+animation-name:move4;
+animation-duration:25s;
+animation-direction:alternate-reverse;
+animation-iteration-count:infinite;
+}
+@keyframes move4{
+0%{ left:0px;top:0px;}
+25%{left:900px;top:0px;}
+50%{left:900px;top:900px;}
+75%{left:0px;top:900px;}
+100%{left:0px; top:0px;}
+}
